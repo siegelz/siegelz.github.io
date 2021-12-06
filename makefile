@@ -1,6 +1,6 @@
 # Non-file targets
 publish: last_updated
-	git add *.html last_updated.txt last_updated_paradigm.txt
+	git add *.html *.txt
 	git commit -m "make publish"
 	git push -u origin main
 
