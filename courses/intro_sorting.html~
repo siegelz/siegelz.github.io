@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Debate Paradigm</title>
+    <style>
+      table, th, td {
+          border:1px solid black;
+      }
+    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8H4LB2MJLK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-8H4LB2MJLK');
+    </script>
+  </head>
+  
+  <body>
+    <h2 style="text-align:center;">Debate Paradigm</h2>
+    <p style="border:3px; border-style:solid; padding:3px;"><b>Note:</b> If you know you spread on the faster side, <u>please seriously consider slowing down</u>. I am not nearly as active in debate as I used to be, and if you're going too fast I just won't be able to flow you. I will also award significantly higher speaker points if it is clear that you aren't reading off the doc and are generating unique and creative arguments.</p>
+
+    <p>Hey, I'm Zach, and I debated for Scarsdale High School '21 in LD. I broke at the TOC twice and currently attend Princeton '25.</p>
+    
+    <p><b>Email:</b> <a href="mailto://zachary@siegel.com">zachary@siegel.com</a></p>
+
+    <p>I have the most experience judging theory and philosophical framework debates. I have less experience judging LARP and K debates, although I will still do my best to evaluate them. I would err on the side of caution with K vs K debates as I have the least confidence in my ability to adjudicate these rounds.</p>
+
+    <p><b>Some musings:</b></p>
+    <ul>
+      <li>Arguments must have a claim, warrant, and impact. If I do not understand the warrant of an argument or do not believe it to justify the claim, I will not vote on it. I won't vote on extended arguments if I don't catch them in previous speeches.
+      <li>I will attempt to default to the assumptions made by debaters in the round. However, if this seems unclear, on theory, I will default to fairness, education, competing interps, no RVIs, and drop the debater, and on substance, truth testing with presumption and permissibility negating.
+      <li>I will not vote on out of round violations that, if contested, provide no clear way to resolve who is correct. That means I will not check the wiki or any other source external to the debate round, and in many cases, I will drop the violation in question if I feel there is no objective way to determine who is correct.
+      <li>I will follow the <a href="https://www.speechanddebate.org/wp-content/uploads/Debate-Evidence-Guide.pdf">NSDA guide</a> when evaluating evidence ethics concerns. If you want to stake the round on an issue, you may, but know that <b>A.</b> I strongly prefer you debate the concern in round, and <b>B.</b> If you stake the round, win, but I feel the violation is frivolous (e.g. ellipses, brackets that don't change the meaning of the card, etc.), your speaks will be capped.
+      <li>I will not vote on argument extensions that logically prevent the opponent from responding by being reliant upon the truth value of the original argument (e.g. extending no neg arguments by saying the neg's responses don't apply because they are neg arguments) because the original argument could only be true if the original argument could take out responses to itself, which is circular.
+      <li>Try to have some fun! Debate can become monotonous, and I'm sure everyone would benefit from having <a href="https://tools.circuitdebater.org/theoryBot">a more entertaining round</a> (including your speaks).
+    </ul>
+
+    <img src="static/snowman.jpeg" alt="Snowman" style="width:200px;">
+    
+    <footer>
+      <br><object data="last_updated_paradigm.txt" width="300" height="60"></object>
+    </footer>
+  </body>
+</html>
