@@ -1,6 +1,6 @@
 # Non-file targets
 publish: last_updated
-	git add *.html *.txt
+	git add *.html *.txt cv.pdf makefile static/* courses/*
 	git commit -m "make publish"
 	git push -u origin main
 

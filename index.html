@@ -15,6 +15,7 @@
       gtag('js', new Date());
       gtag('config', 'G-8H4LB2MJLK');
     </script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
   
   <body>
@@ -24,6 +25,18 @@
       <i>Princeton University</i><br>
       <a href="mailto:zss@princeton.edu">zss@princeton.edu</a>
     </p>
+
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+      $(function(){
+	  $("#nav-placeholder").load("navbar.html");
+      });
+    </script>
+    <!--end of Navigation bar-->
 
     <table style="width:100%">
       <tr>
