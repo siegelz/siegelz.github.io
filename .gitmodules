@@ -1,0 +1,3 @@
+[submodule "open_alchemy"]
+	path = open_alchemy
+	url = https://github.com/siegelz/open_alchemy.git
