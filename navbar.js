@@ -7,13 +7,12 @@ document.addEventListener('DOMContentLoaded', function() {
             <a href="mailto:zss@princeton.edu">zss@princeton.edu</a>
         </p>
 
-        <table style="width:100%">
+        <table style="width:100%; table-layout: fixed;">
             <tr>
-                <th><a href="index.html">Home</a></th>
-                <th><a href="cv.pdf">CV</a></th>
-                <th>Research</th>
-                <th>Teaching</th>
-                <th><a href="projects.html">Projects</a></th>
+                <th style="width:20%"><a href="index.html">Home</a></th>
+                <th style="width:20%"><a href="cv.pdf">CV</a></th>
+                <th style="width:20%"><a href="research.html">Research</a></th>
+                <th style="width:20%"><a href="projects.html">Projects</a></th>
             </tr>
         </table>
     `;
