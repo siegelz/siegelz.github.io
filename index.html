@@ -2,9 +2,10 @@
 <html lang="en">
   <head>
     <title>Zachary S. Siegel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <style>
       table, th, td {
-    border:1px solid black;
+        border:1px solid black;
       }
     </style>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -15,51 +16,31 @@
       gtag('js', new Date());
       gtag('config', 'G-8H4LB2MJLK');
     </script>
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
   
   <body>
     <!--Navigation bar-->
-    <!--
     <div id="nav-placeholder"></div>
-
-    <script>
-      $(function(){
-    $("#nav-placeholder").load("navbar.html");
-      });
-    </script>
-    -->
+    <script src="navbar.js"></script>
     <!--End of Navigation bar-->
-
-    <h2 style="text-align:center;">Zachary S. Siegel</h2>
-    <p style="text-align:center;">
-      <i>Undergraduate, Department of Computer Science</i><br>
-      <i>Princeton University</i><br>
-      <a href="mailto:zss@princeton.edu">zss@princeton.edu</a>
-    </p>
-
-    <table style="width:100%">
-      <tr>
-        <th><a href="index.html">Home</a></th>
-        <th><a href="cv.pdf">CV</a></th>
-        <th>Research</th>
-        <th>Teaching</th>
-        <th><a href="projects.html">Projects</a></th>
-      </tr>
-    </table>
 
     <h2 style="text-align:center;">Home</h2>
     <h3>Personal Description</h3>
     <p>
-      I am a senior in the Department of Computer Science at Princeton University. I am interested in building and evaluating AI systems that can reason, plan, and act in complex environments. One focus is on combining approaches from natural language processing and bayesian learning to build neuro-symbolic systems that can explicitly plan and make rational decisions. I am also interested in highlighting the limitations of existing evaluation paradigms for AI agents and systems.
+      My research objective is to build machines that plan and learn with language. People use language to plan in their everyday lives: imagine constructing a piece of furniture with guidance from the instruction manual, cooking with somebody else in the kitchen, or correcting a child's mistakes building an erector set. My goal is to understand how people efficiently learn from language instructions, as well as represent their actions and intentions through language, and build machines that work in similar ways.
     </p>
     <p>
-      I also study philosophy, where I have interests in decision theory and philosophy of mind.
+      My current work has focused on building and analyzing benchmarks for decision-making tasks that require planning and learning from language (<a href="https://arxiv.org/pdf/2407.01502">AI Agents that Matter</a>, <a href="https://arxiv.org/pdf/2409.11363">CORE-Bench</a>), as well as designing AI systems that leverage language understand to learn action abstractions and better plan (<a href="https://arxiv.org/pdf/2312.08566">Ada</a>, <a href="https://openreview.net/pdf?id=tJvUG93usI">Goal Inference</a>). For my senior thesis, I am studying what mechanisms people use to predict the goals of others around them by running controlled human experiments and building computational models for how they might make predictions.
     </p>
 
     <h3>Updates</h3>
     <ul>
-      <li><i>August 2024:</i> I am applying to graduate school!</li>
+      <li><i>10 December 2024:</i> I will be at NeurIPS presenting on my work <a href="https://openreview.net/pdf?id=xhW2WyPhRP">analyzing the low-rank biases of the weight matrices learned during SGD</a>.</li>
+      <li><i>26 November 2024:</i> <a href="https://arxiv.org/pdf/2409.11363">CORE-Bench</a> was accepted to Transactions on Machine Learning Research.</li>
+      <li><i>6 November 2024:</i> I am at CORL Presenting on <a href="https://openreview.net/pdf?id=tJvUG93usI">Goal Inference</a> paper at the LEAP workshop.</li>
+      <li><i>15 August 2024:</i> I am co-organizing a <a href="https://sites.google.com/princeton.edu/agents-workshop/">workshop</a> on the development and evaluation of LLM-based AI agents. Register <a href="http://bit.ly/agents-workshop">here</a>.</li>
+      <li><span style="background-color: #ffffd0;"><i>1 August 2024:</i> I am applying to graduate school!</span></li>
+      <li><i>24 April 2024:</i> I am at ICLR presenting on our work <a href = "https://openreview.net/forum?id=qJ0Cfj4Ex9">Learning Grounded Action Abstractions from Language.</a></li>
     </ul>
     
     <br><br>
