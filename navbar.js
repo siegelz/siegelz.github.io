@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <table style="width:100%; table-layout: fixed;">
             <tr>
                 <th style="width:20%"><a href="index.html">Home</a></th>
-                <th style="width:20%"><a href="cv.pdf">CV</a></th>
+                <th style="width:20%"><a href="cv.html">CV</a></th>
                 <th style="width:20%"><a href="research.html">Research</a></th>
                 <th style="width:20%"><a href="projects.html">Projects</a></th>
             </tr>
