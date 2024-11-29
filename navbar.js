@@ -1,4 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Dynamically add Font Awesome CSS
+    if (!document.querySelector('link[href*="font-awesome"]')) {
+        const fontAwesome = document.createElement('link');
+        fontAwesome.rel = 'stylesheet';
+        fontAwesome.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css';
+        document.head.appendChild(fontAwesome);
+    }
+
     const navbar = `
         <div style="text-align: center;">
             <div style="display: inline-flex; align-items: center; justify-content: center; gap: 30px; margin: 30px auto; border: 1px solid black; border-radius: 4px; padding: 20px; background-color: #f5f5f5;">
