@@ -18,11 +18,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div>
                     <h2 style="margin: 0;">Zachary S. Siegel</h2>
                     <p style="margin: 0px 0;">
-                        <i>Undergraduate Student</i><br>
-                        <i>Department of Computer Science</i><br>
-                        <i>Princeton University</i><br>
+                        <i>Ph.D. Student</i><br>
+                        <i>EECS, CSAIL</i><br>
+                        <i>Massachusetts Institute of Technology</i><br>
                         <span style="display: inline-block; margin-top: 5px;">
-                            <a href="mailto:zss@princeton.edu"><i class="fas fa-envelope"></i> Email</a>&nbsp;&nbsp;&nbsp;
+                            <a href="mailto:zss@mit.edu"><i class="fas fa-envelope"></i> Email</a>&nbsp;&nbsp;&nbsp;
                             <a href="https://github.com/siegelz"><i class="fab fa-github"></i> GitHub</a>&nbsp;&nbsp;&nbsp;
                             <a href="https://scholar.google.com/citations?user=EOPTuH0AAAAJ&hl=en"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
                         </span>
