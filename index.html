@@ -6,6 +6,91 @@
       table, th, td {
         border:1px solid black;
       }
+      
+      /* Updates Section Styling */
+      .updates-container {
+        max-height: 400px;
+        overflow-y: auto;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 10px;
+        background-color: #fafafa;
+        margin-top: 10px;
+      }
+      
+      .update-item {
+        margin-bottom: 10px;
+        border: 1px solid #e0e0e0;
+        border-radius: 6px;
+        background-color: white;
+        overflow: hidden;
+        transition: box-shadow 0.2s ease;
+      }
+      
+      .update-item:hover {
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      }
+      
+      .update-header {
+        padding: 12px 16px;
+        background-color: #f8f9fa;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #e0e0e0;
+        transition: background-color 0.2s ease;
+      }
+      
+      .update-header:hover {
+        background-color: #e9ecef;
+      }
+      
+      .update-date {
+        font-weight: bold;
+        color: #495057;
+        font-style: italic;
+      }
+      
+      .toggle-icon {
+        font-size: 12px;
+        color: #6c757d;
+        transition: transform 0.2s ease;
+      }
+      
+      .update-item.expanded .toggle-icon {
+        transform: rotate(180deg);
+      }
+      
+      .update-content {
+        padding: 16px;
+        display: none;
+        line-height: 1.5;
+        color: #333;
+      }
+      
+      .update-item.expanded .update-content {
+        display: block;
+      }
+      
+      /* Custom scrollbar for updates container */
+      .updates-container::-webkit-scrollbar {
+        width: 8px;
+      }
+      
+      .updates-container::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 4px;
+      }
+      
+      .updates-container::-webkit-scrollbar-thumb {
+        background: #c1c1c1;
+        border-radius: 4px;
+      }
+      
+      .updates-container::-webkit-scrollbar-thumb:hover {
+        background: #a8a8a8;
+      }
     </style>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-8H4LB2MJLK"></script>
@@ -33,14 +118,82 @@
     </p>
 
     <h3>Updates</h3>
-    <ul>
-      <li><i>10 December 2024:</i> I will be at NeurIPS presenting on my work <a href="https://openreview.net/pdf?id=xhW2WyPhRP">analyzing the low-rank biases of the weight matrices learned during SGD</a>.</li>
-      <li><i>26 November 2024:</i> <a href="https://arxiv.org/pdf/2409.11363">CORE-Bench</a> was accepted to Transactions on Machine Learning Research.</li>
-      <li><i>6 November 2024:</i> I am at CORL Presenting on <a href="https://openreview.net/pdf?id=tJvUG93usI">Goal Inference</a> paper at the LEAP workshop.</li>
-      <li><i>15 August 2024:</i> I am co-organizing a <a href="https://sites.google.com/princeton.edu/agents-workshop/">workshop</a> on the development and evaluation of LLM-based AI agents. Register <a href="http://bit.ly/agents-workshop">here</a>.</li>
-      <li><span style="background-color: #ffffd0;"><i>1 August 2024:</i> I am applying to graduate school!</span></li>
-      <li><i>24 April 2024:</i> I am at ICLR presenting on our work <a href = "https://openreview.net/forum?id=qJ0Cfj4Ex9">Learning Grounded Action Abstractions from Language.</a></li>
-    </ul>
+    <div class="updates-container">
+      <div class="update-item">
+        <div class="update-header" onclick="toggleUpdate(this)">
+          <span class="update-date">10 December 2024</span>
+          <span class="toggle-icon">▼</span>
+        </div>
+        <div class="update-content">
+          I will be at NeurIPS presenting on my work <a href="https://openreview.net/pdf?id=xhW2WyPhRP">analyzing the low-rank biases of the weight matrices learned during SGD</a>.
+        </div>
+      </div>
+      
+      <div class="update-item">
+        <div class="update-header" onclick="toggleUpdate(this)">
+          <span class="update-date">26 November 2024</span>
+          <span class="toggle-icon">▼</span>
+        </div>
+        <div class="update-content">
+          <a href="https://arxiv.org/pdf/2409.11363">CORE-Bench</a> was accepted to Transactions on Machine Learning Research.
+        </div>
+      </div>
+      
+      <div class="update-item">
+        <div class="update-header" onclick="toggleUpdate(this)">
+          <span class="update-date">6 November 2024</span>
+          <span class="toggle-icon">▼</span>
+        </div>
+        <div class="update-content">
+          I am at CORL Presenting on <a href="https://openreview.net/pdf?id=tJvUG93usI">Goal Inference</a> paper at the LEAP workshop.
+        </div>
+      </div>
+      
+      <div class="update-item">
+        <div class="update-header" onclick="toggleUpdate(this)">
+          <span class="update-date">15 August 2024</span>
+          <span class="toggle-icon">▼</span>
+        </div>
+        <div class="update-content">
+          I am co-organizing a <a href="https://sites.google.com/princeton.edu/agents-workshop/">workshop</a> on the development and evaluation of LLM-based AI agents. Register <a href="http://bit.ly/agents-workshop">here</a>.
+        </div>
+      </div>
+      
+      <div class="update-item" style="background-color: #fffef0;">
+        <div class="update-header" onclick="toggleUpdate(this)" style="background-color: #ffffd0;">
+          <span class="update-date">1 August 2024</span>
+          <span class="toggle-icon">▼</span>
+        </div>
+        <div class="update-content">
+          I am applying to graduate school!
+        </div>
+      </div>
+      
+      <div class="update-item">
+        <div class="update-header" onclick="toggleUpdate(this)">
+          <span class="update-date">24 April 2024</span>
+          <span class="toggle-icon">▼</span>
+        </div>
+        <div class="update-content">
+          I am at ICLR presenting on our work <a href="https://openreview.net/forum?id=qJ0Cfj4Ex9">Learning Grounded Action Abstractions from Language.</a>
+        </div>
+      </div>
+    </div>
+    
+    <script>
+      function toggleUpdate(header) {
+        const updateItem = header.parentElement;
+        updateItem.classList.toggle('expanded');
+      }
+      
+      // Expand the first update by default to show functionality
+      document.addEventListener('DOMContentLoaded', function() {
+        const firstUpdate = document.querySelector('.update-item');
+        if (firstUpdate) {
+          firstUpdate.classList.add('expanded');
+        }
+      });
+    </script>
     
     <br><br>
   </body>
