@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded', function() {
         <div style="text-align: center;">
             <div style="display: inline-flex; align-items: center; justify-content: center; gap: 30px; margin: 30px auto; border: 1px solid black; border-radius: 4px; padding: 20px; background-color: #f5f5f5;">
                 <div style="width: 100px; height: 100px; border-radius: 10px; overflow: hidden; border: 1px solid black;">
-                    <a href="static/eastpyne1.jpg" target="_blank">
-                        <img src="static/eastpyne1.jpg" alt="Zachary S. Siegel" style="width: 175px; height: 175px; object-fit: cover; margin: -22px 0 0 -35px;">
+                    <a href="static/hertz.jpg" target="_blank">
+                        <img src="static/hertz.jpg" alt="Zachary S. Siegel" style="width: 303.03px; height: auto; display: block; margin: -13.27px 0 0 -127.88px;">
                     </a>
                 </div>
                 <div>
