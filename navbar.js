@@ -32,10 +32,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
             <table style="width:100%; table-layout: fixed;">
                 <tr>
-                    <th style="width:33.33%"><a href="index.html">Home</a></th>
-                    <th style="width:33.33%"><a href="cv.html">CV</a></th>
-                    <!-- <th style="width:20%"><a href="research.html">Research</a></th> -->
-                    <th style="width:33.33%"><a href="projects.html">Personal Projects</a></th>
+                    <th style="width:25%"><a href="index.html">Home</a></th>
+                    <th style="width:25%"><a href="cv.html">CV</a></th>
+                    <th style="width:25%"><a href="research_statement.pdf">Research Statement</a></th>
+                    <th style="width:25%"><a href="projects.html">Personal Projects</a></th>
                 </tr>
             </table>
         </div>
