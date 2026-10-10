@@ -1,0 +1,73 @@
+table, th, td {
+  border: 1px solid black;
+}
+
+.site-header {
+  text-align: center;
+}
+
+.profile-card {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px auto;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.profile-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid black;
+}
+
+.profile-photo img {
+  width: 303.03px;
+  height: auto;
+  display: block;
+  margin: -13.27px 0 0 -127.88px;
+}
+
+.profile-name {
+  margin: 0;
+}
+
+.profile-details {
+  margin: 0;
+}
+
+.profile-links {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.site-nav {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.site-nav th {
+  width: 25%;
+}
+
+.pdf-container {
+  width: 66.67%;
+  height: 100vh;
+  margin: 20px auto;
+  display: block;
+  border: 3px solid black;
+}
+
+.download-link {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.last-updated {
+  font-style: italic;
+}

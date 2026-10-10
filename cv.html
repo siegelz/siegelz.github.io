@@ -1,43 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8">
     <title>Zachary S. Siegel - CV</title>
-    <style>
-      table, th, td {
-        border:1px solid black;
-      }
-      .pdf-container {
-        width: 66.67%;
-        height: 100vh;
-        margin: 20px auto;
-        display: block;
-        border: 3px solid black;
-      }
-      .download-link {
-        text-align: center;
-        margin: 20px 0;
-      }
-    </style>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8H4LB2MJLK"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-8H4LB2MJLK');
-    </script>
+    <link rel="stylesheet" href="static/site.css">
+    <script defer src="static/site.js"></script>
   </head>
   
-  <body>
+  <body data-last-updated="2026-10-09">
     <!--Navigation bar-->
     <div id="nav-placeholder"></div>
-    <script src="navbar.js"></script>
     <!--End of Navigation bar-->
     
-    <embed src="cv.pdf" type="application/pdf" class="pdf-container"/>
+    <embed src="static/cv.pdf" type="application/pdf" class="pdf-container"/>
     
     <div class="download-link">
-      <a href="cv.pdf" download>Download Link</a>
+      <a href="static/cv.pdf" download>Download Link</a>
     </div>
     
     <br><br>
